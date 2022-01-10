@@ -4,11 +4,6 @@ with open('tokens.txt','r') as handle:
         tokens = handle.readlines()
         for x in tokens:
             token = x.rstrip()
-with open('bios.txt','r') as handle:
-        bios = handle.readlines()
-        for x in bios:
-            bios = x.rstrip()
-          
 def squad():
     houseid = input("[>] Choices - 1, 2, 3\n[>] House Id > ")
 
